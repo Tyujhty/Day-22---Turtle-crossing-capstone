@@ -14,7 +14,6 @@ turtle = Player()
 
 car = Car()
 
-
 screen.listen()
 screen.onkey(turtle.move, "Up")
 
