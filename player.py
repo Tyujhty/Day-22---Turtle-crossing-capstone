@@ -17,7 +17,6 @@ class Player(Turtle):
         self.forward(10)
 
     # Detect when the player reaches the top of the screen
-    def reset_position(self, number_of_cars):
+    def reset_position(self):
         if self.ycor() > FINISH_LINE_Y:
             self.goto(STARTING_POSITION)
-            number_of_cars += 3
